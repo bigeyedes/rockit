@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\heroku\bin;C:\Program Files (x86)\GnuWin32\bin;D:\PROGRAMOWANIE\heroku\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\heroku\bin;C:\Users\bigey\AppData\Local\Temp;C:\Users\bigey\AppData\Local\Yarn\bin;C:\Users\bigey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bigey\AppData\Local\Microsoft\WindowsApps;C:\Users\bigey\AppData\Roaming\npm;D:\PROGRAMY\IntelliJ IDEA 2021.3\bin;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\bigey\AppData\Local\Yarn\Cache\v6\npm-command-exists-1.2.9-c50725af3808c8ab0260fd60b01fbfa25b954f69-integrity\node_modules\command-exists\.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "rockit",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~43.0.2",
+      "expo-status-bar": "~1.1.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9",
+      "@types/react": "~17.0.21",
+      "@types/react-native": "~0.64.12",
+      "typescript": "~4.3.5"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
