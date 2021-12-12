@@ -10,12 +10,12 @@ const mountWelcomeScreen = () => {
   return render(<WelcomeScreen />)
 }
 
-describe('WelcomeScreen screen', () => {
+describe('WelcomeScreen', () => {
   beforeEach(async () => {
     wrapper = await mountWelcomeScreen()
   })
 
-  it('Should render WelcomeScreen Screen component', async () => {
+  it('Should render WelcomeScreen component', async () => {
     const welcomeScreenWrapper = await wrapper.getByTestId('welcome-page-test-id')
     const welcomeScreenLogo = await wrapper.getByTestId('welcome-page-logo-test-id')
 
