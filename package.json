@@ -10,7 +10,8 @@
     "eject": "expo eject",
     "pretty": "prettier --write \"**/*.{ts,tsx,js,jsx}\"",
     "lint": "eslint --ext .ts,.tsx",
-    "test": "jest"
+    "test": "jest",
+    "test-ci": "jest"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
