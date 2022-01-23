@@ -4,8 +4,6 @@
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
     "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "react", "prettier"],
@@ -36,10 +34,12 @@
       }
     ],
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
+    "no-param-reassign": "off",
+    "react/function-component-definition": "off",
     "import/extensions": ["error", "never"],
     "react/prop-types": 0,
     "no-shadow": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/no-shadow": ["error"]
   }
 }
