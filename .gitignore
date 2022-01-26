@@ -19,3 +19,5 @@ web-build/
 # enviroment
 .env
 env.d.ts
+google-services.json
+GoogleService-Info.plist
