@@ -30,7 +30,7 @@ export const usersSlice = createSlice({
       state.usersLoading = false
       state.usersError = false
     })
-    builder.addCase(fetchUsers.rejected, state => {
+    builder.addCase(fetchUsers.rejected, (state) => {
       state.usersLoading = false
       state.usersError = true
     })
